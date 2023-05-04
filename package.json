@@ -1,0 +1,21 @@
+{
+  "name": "ts-project-from-scratch",
+  "packageManager": "yarn@4.0.0-rc.43",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build --watch --preserveWatchOutput",
+    "lint": "eslint src --ext js,ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4"
+  },
+  "volta": {
+    "node": "18.16.0",
+    "yarn": "4.0.0-rc.43"
+  }
+}
