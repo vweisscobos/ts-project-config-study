@@ -1,0 +1,10 @@
+// this file exists only for the purpose to allow jest types
+// in the test files. As eslint expects just a single config file,
+// we are using this intead of `.eslin`
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "types": ["jest"]
+    },
+    "include": ["src", "tests"]
+}
